@@ -38,6 +38,10 @@ Projeto desenvolvido na **NLW IA - Trilha Foundation** oferecido pela [Rocketsea
 - Preparação do ambiente
 - Criação do frontend da aplicação
 
+📌  Aula 02
+- Criação do backend da aplicação
+- Criação e teste da rota de download
+
 
 <br>
 
@@ -51,66 +55,33 @@ Projeto desenvolvido na **NLW IA - Trilha Foundation** oferecido pela [Rocketsea
 
 ## 🚀 Como executar o projeto
 
-<!-- > 💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
+> 💡 O Frontend precisa que o Backend esteja sendo executado para funcionar.
 
 <br>
-
-#### 🎲 Rodando o Backend (servidor)
 
 ```bash
 
 # Clone este repositório
-$ git clone git@github.com:nlnadialigia/ignite-lab-0.0.git
+$ git clone git@github.com:nlnadialigia/nlw-ia-foundation.git
 
 # Acesse a pasta do projeto no terminal/cmd
-$ cd ignite-lab-0.0
-
-# Vá para a pasta server
-$ cd server
+$ cd nlw-ia-foundation
 
 # Instale as dependências
-$ npm install
+$ pnpm install
 
-# Execute a aplicação em modo de desenvolvimento
-$ npm run dev
+# Executar o backend (server)
+$ pnpm run server
 
 # O servidor inciará na porta:3333 - acesse http://localhost:3333
 
+# Executar o frontend (web)
+$ pnpm run web
+
+# # A aplicação será aberta na porta:5173 - acesse http://localhost:5173
+
 ``` 
 
-<br>
-
-#### 🪄 Testando os endpoints
-
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/14773197-0050dc4b-5264-46c6-b670-642c2019332e?action=collection%2Ffork&source=rip_markdown&collection-url=entityId%3D14773197-0050dc4b-5264-46c6-b670-642c2019332e%26entityType%3Dcollection%26workspaceId%3D7971a1b7-792d-4b16-8887-ef0f4b4b3c35#?env%5Blocal%5D=W3sia2V5IjoiYmFzZV91cmwiLCJ2YWx1ZSI6Imh0dHA6Ly9sb2NhbGhvc3Q6MzMzMyIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0In1d)
-
-<br>
-
-#### 🧭 Rodando a aplicação web (Frontend)
-
-```bash
-
-# Clone este repositório
-$ git clone git@github.com:nlnadialigia/ignite-lab-0.0.git
-
-# Acesse a pasta do projeto no seu terminal/cmd
-$ cd ignite-lab-0.0
-
-# Vá para a pasta da aplicação Front End
-$ cd web
-
-# Instale as dependências
-$ npm install
-
-# Instalar o react-scripts global
-$ npm install -g react-scripts
-
-# Execute a aplicação em modo de desenvolvimento
-$ npm run start
-
-# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
-
-```-->
 <br>
 
 ## 🛠 Links úteis
@@ -118,6 +89,11 @@ $ npm run start
 - [Figma](https://www.figma.com/)
 - [Vite](https://vitejs.dev/)
 - [Phosphor](https://phosphoricons.com/)
+- [Axios](https://axios-http.com/ptbr/)
+- [Node](https://nodejs.org/pt-br)
+- [Express](https://expressjs.com/)
+- [Cors](https://www.npmjs.com/package/cors)
+- [Ytdl-core](https://www.npmjs.com/package/ytdl-core)
 
 
 <br>
