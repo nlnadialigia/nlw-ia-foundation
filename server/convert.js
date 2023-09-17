@@ -3,7 +3,7 @@ import ffmpeg from "fluent-ffmpeg";
 import wav from "node-wav";
 import fs from "node:fs";
 
-const filePath = "./tmp/audio.mp4"
+const filePath = "./audio.mp4"
 const outputPath = filePath.replace(".mp4", ".wav")
 
 export const convert = () =>
