@@ -19,9 +19,15 @@
   text-align: justify;
   width: 512px;
   margin-top: 18px;
+  color: var(--primary-light);
 }
 
 #app .placeholder {
   color: var(--text-secondary);
   user-select: none;
+}
+
+#app > .content {
+  color: red;
+  opacity: 1;
 }
