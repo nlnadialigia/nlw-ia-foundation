@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --blackground: #121214;
+  --input-surface: #202024;
+  --text-secondary: #7C7C8A;
+  --text-primary: #FFFFFF;
+  --primary-mid: #8257E5;
+  --primary-light: #996DFF;
+  --button-hover: #633bbc;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--blackground);
+  color: var(--text-primary);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+body,
+button,
+input {
+  font-family: 'Roboto', sans-serif;
+}
