@@ -19,6 +19,7 @@ app.get("/summary/:id", async (request, response) => {
 
     const result = await transcribe(audioConverted)
 
+    response.setHeader('Access-Control-Allow-Origin', 'https://nlw-ia-foundation-web.vercel.app');
     return response.json({ result })
   } catch (error) {
     console.log(error)
@@ -30,6 +31,7 @@ app.post("/summary", async (request, response) => {
   try {
     const result = await summarize(request.body.text)
 
+    response.setHeader('Access-Control-Allow-Origin', 'https://nlw-ia-foundation-web.vercel.app');
     return response.json({ result })
   } catch (error) {
     console.log(error)
