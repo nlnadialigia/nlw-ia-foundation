@@ -15,10 +15,10 @@
 
 <h2  align="center">
 
-![Github last commit](https://img.shields.io/github/last-commit/nlnadialigia/nlwia?color=633bbc&style=plastic)
-![GitHub repo size](https://img.shields.io/github/repo-size/nlnadialigia/nlwia?color=633bbc&style=plastic)
-![Github top language](https://img.shields.io/github/languages/top/nlnadialigia/nlwia?color=633bbc)
-[![License](https://img.shields.io/github/license/nlnadialigia/nlwia?color=633bbc&logoColor=633bbc&style=plastic)](./LICENSE)
+![Github last commit](https://img.shields.io/github/last-commit/nlnadialigia//nlw-ia-foundation?color=633bbc&style=plastic)
+![GitHub repo size](https://img.shields.io/github/repo-size/nlnadialigia//nlw-ia-foundation?color=633bbc&style=plastic)
+![Github top language](https://img.shields.io/github/languages/top/nlnadialigia//nlw-ia-foundation?color=633bbc)
+[![License](https://img.shields.io/github/license/nlnadialigia//nlw-ia-foundation?color=633bbc&logoColor=633bbc&style=plastic)](./LICENSE)
 
 </h2><br>
 
