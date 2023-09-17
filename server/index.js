@@ -8,7 +8,10 @@ import { transcribe } from "./transcribe.js";
 const app = express()
 app.use(express.json())
 app.use(cors({
-  origin: 'https://nlw-ia-foundation-web.vercel.app'
+  "origin": "*",
+  "methods": "GET,POST",
+  "preflightContinue": false,
+  "optionsSuccessStatus": 204
 }));
 
 app.get("/summary/:id", async (request, response) => {
