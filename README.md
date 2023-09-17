@@ -42,6 +42,10 @@ Projeto desenvolvido na **NLW IA - Trilha Foundation** oferecido pela [Rocketsea
 - Criação do backend da aplicação
 - Criação e teste da rota de download
 
+📌  Aula 03
+- Conexão do frontend com o backend
+- Utilização de dois modelos de IA: um para extrair texto do áudio e outro para resumir o conteúdo
+
 
 <br>
 
@@ -94,6 +98,10 @@ $ pnpm run web
 - [Express](https://expressjs.com/)
 - [Cors](https://www.npmjs.com/package/cors)
 - [Ytdl-core](https://www.npmjs.com/package/ytdl-core)
+- [Transformes.js](https://xenova.github.io/transformers.js/)
+- [Ffmpeg-static](https://www.npmjs.com/package/ffmpeg-static)
+- [Fluent-ffmpeg](https://github.com/fluent-ffmpeg/node-fluent-ffmpeg)
+- [Node wav](https://www.npmjs.com/package/node-wav)
 
 
 <br>
@@ -102,7 +110,8 @@ $ pnpm run web
 
 <img src="https://ik.imagekit.io/l7cwocexhc/me/card_nlnadialigia.png?updatedAt=1694126884257" width="300px;" alt="Picture"/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[![Linkedin](https://img.shields.io/badge/-Linkedin-732a7b?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia)&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[![Linkedin](https://img.shields.io/badge/-Linkedin-732a7b?style=plastic&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/nlnadialigia/)](https://www.linkedin.com/in/nlnadialigia)&nbsp;&nbsp;
 [![Email](https://img.shields.io/badge/-Email-732a7b?style=plastic&logo=Gmail&logoColor=white&link=mailto:nlnadialigia@gmail.com)](mailto:nlnadialigia@gmail.com)&nbsp;&nbsp;
 [![Homepage](https://img.shields.io/badge/-Homepage-732a7b?style=plastic)](https://www.nlnadialigia.com)
 
