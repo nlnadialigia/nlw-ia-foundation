@@ -4,9 +4,6 @@ import wav from "node-wav";
 import fs from "node:fs";
 
 const filePath = "./tmp/audio.mp4"
-// /home/nadiasantos/www/rocketseat/nlw-ia/nlwia/server/convert.js
-// /home/nadiasantos/www/rocketseat/nlw-ia/nlwia/tmp
-console.log(filePath)
 const outputPath = filePath.replace(".mp4", ".wav")
 
 export const convert = () =>
