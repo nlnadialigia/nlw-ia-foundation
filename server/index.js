@@ -8,10 +8,8 @@ import { transcribe } from "./transcribe.js";
 const app = express()
 app.use(express.json())
 app.use(cors({
-  "origin": "*",
-  "methods": "GET,POST",
-  "preflightContinue": false,
-  "optionsSuccessStatus": 204
+  origin: "*",
+  allowedHeaders: ["Origin", "X-Requested-With", "Content-Type", "Accept"],
 }));
 
 app.get("/summary/:id", async (request, response) => {
